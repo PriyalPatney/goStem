@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+    height:100%;
     font-family: Maitree, sans-serif;
   }
   
@@ -102,4 +103,65 @@ body {
     max-width: 100%;
     height: 566px;
     width: 100%;
+  }
+
+  .footer{
+    background: rgb(255, 16, 68);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* position: absolute; */
+    width: 100%;
+    color: #FAFAFA;
+    font-size: 75%;
+    text-align: center;
+    padding: .1%;
+  }
+
+  .inquiryContainer{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'left left mid mid right right'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    /* background-color: #11F6F3; */
+    padding: 10px;
+  }
+
+  .inquiryContainer > div{
+    padding: 20px 0;
+  }
+
+  .map{
+    grid-area: header;
+  }
+
+  .inquiryLeft{
+    grid-area: left;
+  }
+
+  .inquiryMid{
+    grid-area: mid;
+  }
+
+  .inquiryRight{
+    grid-area: right;
+  }
+
+  .inquiryRight > input{
+    display: block;
+    width: 70%;
+    border: 0;
+    border-radius: 5%;
+    /* margin-bottom: 20px; */
+    outline: 0;
+    padding: 8px;
+    background: #f2f2f2;
+    font-size: 1rem;
+  }
+
+  .inquiryRight > hr{
+    display: block;
+    height: 1px;
   }
