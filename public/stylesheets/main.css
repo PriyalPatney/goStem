@@ -1,4 +1,5 @@
 body {
+    zoom: 95%;
     margin:0;
     padding:0;
     height:100%;
@@ -49,10 +50,10 @@ body {
     color: #616161;
   }
   
-  .flex-navbar > ul.items li.item a:hover {
-    /* color: red; */
+  /* .flex-navbar > ul.items li.item a:hover {
+    color: red;
   }
-  
+   */
   @media only screen and (max-width: 577px) {
     .flex-navbar {
       flex-direction: column;
@@ -123,11 +124,11 @@ body {
     display: grid;
     grid-template-areas: 
     'header header header header header header'
-    'left left mid mid right right'
+    'left left mid right right right'
     'footer footer footer footer footer footer';
     grid-gap: 10px;
     /* background-color: #11F6F3; */
-    padding: 10px;
+    padding: 0;
   }
 
   .inquiryContainer > div{
@@ -173,7 +174,34 @@ body {
   .inquiryRight > hr{
     display: block;
     height: 1px;
-  } */
+  } 
+  .button {
+    /* margin-top: 10%; */
+    border-radius: 45px;
+    background-color: rgb(238, 46, 12);
+    border: none;
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  .inquiryButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+  .inquiryButton:hover {
+    background-color: #f44336;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
   .big-img{
     width: 100%;
     height: 300px;
@@ -300,5 +328,15 @@ body {
     width: 300px;
     margin-top: 200px;
 
+  }
+
+  .gapContainer{
+    display: grid;
+    padding: 0;
+    grid-template-columns: 5% 20% auto;
+    grid-template-rows: 1px; 
+  }
+  .gapContainerItem1{
+    width: 100%;
   }
 
