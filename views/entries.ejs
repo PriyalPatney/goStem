@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+<h1>this is entries from form</h1>
+
+<% inputs.forEach(function(inputs){ %>
+
+    <ul>
+        <li>
+            Name: <%= inputs.name %>
+        </br>
+            Email: <%= inputs.email %>
+        </li>
+    </ul>
+    
+<% }) %>
+
+<% include ./partials/footer %>
