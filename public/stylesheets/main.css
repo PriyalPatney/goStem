@@ -364,14 +364,12 @@ body {
     display: grid;
     padding: 0;
     margin-top: 100px;
+    margin-bottom: -90px;
     grid-template-columns: 5% 20% auto;
     grid-template-rows: 1px;
   }
   .gapContainerItem1{
     width: 100%;
-  }
-  #cpButtons{
-    border-radius: 50px;
   }
   .sc_about-section .side-nav{
     grid-column-start: 1;
