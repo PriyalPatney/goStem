@@ -3,9 +3,13 @@ body {
     margin:0;
     padding:0;
     height:100%;
-    /* background-color: whitesmoke; */
+    background-color: white;
     font-family: Maitree, sans-serif;
 
+  }
+
+  #sc {
+    background-color: whitesmoke;
   }
 
   .flex-navbar {
@@ -136,7 +140,7 @@ body {
     grid-gap: 10px;
     /* background-color: #11F6F3; */
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
   }
 
   .inquiryContainer > div{
@@ -230,7 +234,7 @@ body {
   #mission{
     position: absolute;
     margin: 20px;
-    color: whitesmoke;
+    color: white;
     font-size: 2em;
   }
 
@@ -258,7 +262,7 @@ body {
 
   .about-section{
     display: grid;
-    background-color: whitesmoke;
+    background-color: white;
     grid-template-columns:  1fr 2fr 1fr;
     grid-column-gap: 100px;
   }
@@ -311,6 +315,11 @@ body {
     visibility: visible;
     transform: scale3d(1, 1, 1);
   }
+
+  /* .side-nav a {
+    color: green;
+    text-decoration: none;
+  } */
   .content {
     margin-top : 100px;
   }
