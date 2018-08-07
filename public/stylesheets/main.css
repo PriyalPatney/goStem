@@ -1,5 +1,5 @@
 body {
-    zoom: 95%;
+    zoom: 90%;
     margin:0;
     padding:0;
     height:100%;
@@ -52,10 +52,10 @@ body {
     color: #616161;
   }
 
-
+/* 
   .flex-navbar > ul.items li.item a:hover {
-    /* color: red; */
-  }
+    color: red;
+  } */
   /* .flex-navbar > ul.items li.item a:hover {
     color: red;
   }
@@ -371,12 +371,12 @@ body {
     width: 100%;
   }
 
-  .nbutton {
+  /* .nbutton {
 
     }
     .pbutton {
 
-    }
+    } */
 
   .sc_about-section .side-nav{
     grid-column-start: 1;
