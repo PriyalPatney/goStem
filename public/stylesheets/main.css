@@ -359,6 +359,7 @@ body {
   .gapContainer{
     display: grid;
     padding: 0;
+    margin-top: 100px;
     grid-template-columns: 5% 20% auto;
     grid-template-rows: 1px;
   }
