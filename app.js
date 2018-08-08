@@ -4,7 +4,7 @@ var express         = require("express"),
     mongoose        = require("mongoose"),
     methodOverride  = require("method-override")
 
-    
+
 // app config
 mongoose.connect("mongodb://localhost:27017/goStem",{ useNewUrlParser: true });
 app.set("view engine", "ejs");
@@ -38,9 +38,14 @@ app.get("/", function(req,res){
     res.render("landing");
 });
 
+app.get("/login" , function(req , res) {
+res.render("login");  
+});
+
 app.get("/new", function(req,res){
     res.render("new");
 });
+
 
 app.get("/entries", function(req,res){
     formInput.find({}, function(err, inputs){
